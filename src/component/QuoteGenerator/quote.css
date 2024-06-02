@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* .mainWrapper{
+    background-color: black;
+} */
+
+.mainWrapper .header{
+    color: white;
+    margin-bottom: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+.mainWrapper .quote{
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.mainWrapper .quoteGenerator{
+    font-size: 1rem;
+    padding: 0.8rem 0.9rem;
+    font-weight: 600;
+    border: 2px solid yellow;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: rgb(216, 214, 214);
+    cursor: pointer;
+}
+
+.mainWrapper .quoteGenerator:hover{
+    background-color: white;
+}
